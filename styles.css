@@ -1,5 +1,6 @@
-.hero1{
-    background-color:#b8395b;
+
+body{
+    margin:0px;
 }
 .right_links{
     list-style-type: none;
@@ -7,10 +8,46 @@
 .header{
     display:flex;
     justify-content:space-between;
-    padding:10px;
+    padding:22px;
+    height:30px;
+    margin:0px;
+}
+.hero1{
+    background:#ff422c;
+
+}
+.contents{
+    display:flex;
+    flex-direction:column;
+    
+    height:500px;
+    margin:0px 100px;
+}
+body{
+    background:#1f2021;
+}
+.hero1_body{
+    margin:100px;
+    font-family:"sans-serif";
+    font-size:20px;
+    font-weight:700;
+    color:white;
+}
+ a:link{
+    color: white;
+    font-family:"sans-serif";
+    font-weight:700;
+    background-color: transparent;
+    text-decoration: none;
+}
+#id{
+    font-size:15px;
+}
+.left_links{
+        font-size:25px;
 }
 .right_links{
     display:flex;
-    gap:7px;
+    gap:17px;
     margin:0px;
 }
