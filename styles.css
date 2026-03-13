@@ -5,6 +5,13 @@ body{
 .right_links{
     list-style-type: none;
 }
+ a:link{
+    color: white;
+    font-family:"sans-serif";
+    font-weight:700;
+    background-color: transparent;
+    text-decoration: none;
+}
 .header{
     display:flex;
     justify-content:space-between;
@@ -12,33 +19,44 @@ body{
     height:30px;
     margin:0px;
 }
-.hero1{
-    background:#ff422c;
-
+body{
+    background:#1f2021;
 }
 .contents{
     display:flex;
     flex-direction:column;
-    
+ 
     height:500px;
-    margin:0px 100px;
+    margin:0px 80px;
 }
-body{
-    background:#1f2021;
+/*hero 1 section*/
+.hero1{
+    background:#e28523;
+    width:100%;
+}
+.left_hero1_body{    
+    margin-top:80px;
+    margin-left:22px;
 }
 .hero1_body{
-    margin:100px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
     font-family:"sans-serif";
     font-size:20px;
     font-weight:700;
     color:white;
 }
- a:link{
-    color: white;
-    font-family:"sans-serif";
-    font-weight:700;
-    background-color: transparent;
-    text-decoration: none;
+.hero1_logo{
+    margin-top:40px;
+}
+.hero1_body_data{
+        width:500px;
+        font-weight:300;
+}
+.hero1_body_text{
+    margin:0px;
+    font-size:48px;
 }
 #id{
     font-size:15px;
@@ -50,4 +68,118 @@ body{
     display:flex;
     gap:17px;
     margin:0px;
+}
+/*hero 1 section end*/
+/*hero 2 section start*/
+.hero2_contents{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+}
+.hero2{
+    height:500px;
+        background:white;
+    display:flex;
+    justify-content:space-around;
+    }
+
+.hero2_header{
+    margin:30px;
+    margin-bottom:10px;
+    font-family:"sans-serif";
+    font-weight:700;
+}
+.hero2_cards{
+    display:flex;
+    flex-direction:row;
+    margin:20px 40px;
+    font-family:"sans-serif";
+    font-weight:200;
+   gap:100px;
+}
+.hero2_card_shape{
+    height:150px;
+    width:150px;
+    border:3px solid #1f2021;
+    margin:10px 30px;
+  border-radius: 10%
+}
+  
+.hero2_cards_card{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+
+     width:150px;
+}
+.hero2_card_text{
+    margin:0px;
+    color:#191a1b;
+    font-weight:400;
+    text-align:center;
+    margin-bottom:80px;
+}
+/*hero 3*/
+.hero3_contents{
+    display:flex;
+    flex-direction:column;
+    margin:0px 250px;
+}
+.hero3_contents_quotetext{
+    color:white;
+    font-size:40px;
+    font-style:italic;
+}
+.hero3{
+    height:500px;
+    display:flex;
+    align-items:center;
+}
+.hero3_contents_quoteauthor{
+    color:white;
+    text-align:end;
+    font-size:30px;
+    font-style:italic;
+    margin:0px;
+}
+
+/* button */ 
+.button {
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  background-color: #151515;
+  color: #eee;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.button-span {
+  color: #aaa;
+}
+.button {
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  background-color: #151515;
+  color: #eee;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.button-span {
+  color: #aaa;
 }
