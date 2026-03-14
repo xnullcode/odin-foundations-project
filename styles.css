@@ -9,7 +9,6 @@ body{
     color: white;
     font-family:"sans-serif";
     font-weight:700;
-    background-color: transparent;
     text-decoration: none;
 }
 .header{
@@ -17,7 +16,6 @@ body{
     justify-content:space-between;
     padding:22px;
     height:30px;
-    margin:0px;
 }
 body{
     background:#1f2021;
@@ -40,11 +38,9 @@ body{
 }
 .hero1_body{
     display:flex;
-    flex-direction:row;
     justify-content:space-between;
     font-family:"sans-serif";
     font-size:20px;
-    font-weight:700;
     color:white;
 }
 .hero1_logo{
@@ -69,6 +65,7 @@ body{
     gap:17px;
     margin:0px;
 }
+
 /*hero 1 section end*/
 /*hero 2 section start*/
 .hero2_contents{
@@ -88,11 +85,9 @@ body{
     margin:30px;
     margin-bottom:10px;
     font-family:"sans-serif";
-    font-weight:700;
 }
 .hero2_cards{
     display:flex;
-    flex-direction:row;
     margin:20px 40px;
     font-family:"sans-serif";
     font-weight:200;
@@ -121,28 +116,24 @@ body{
     margin-bottom:80px;
 }
 /*hero 3*/
-.hero3_contents{
-    display:flex;
-    flex-direction:column;
-}
 .hero3_contents_quotetext{
-    color:white;
+    color:#1f2937;
     font-size:35px;
     font-style:italic;
     max-width:800px;
 }
 .hero3{
+    background:#e5e7eb;
     height:500px;
     display:flex;
     align-items:center;
     justify-content:space-around;
 }
 .hero3_contents_quoteauthor{
-    color:white;
+    color:#1f2937;
     text-align:end;
     font-size:30px;
     font-style:italic;
-    margin:0px;
 }
 /*end of hero3*/
 /*start of hero4*/
@@ -156,16 +147,12 @@ body{
 .hero4_cta_container{
     background:#e8e8e8;
     padding:30px;
-      border-radius: 30px;
-        transition: all 0.3s;
-  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    border-radius: 30px;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 }
-
-
-
 .hero4_cta{
     display:flex;
-    flex-direction:row;
     margin:0px 80px;
     justify-content:space-between;
     align-items:center;
@@ -185,6 +172,14 @@ body{
     margin:0px;
     font-family:Roboto;
     color:#1f2021;
+}
+.footer{
+    margin:30px;
+}
+.footer_text{
+    text-align:center;
+    font-size:20px;
+    color:white;
 }
     
 /* button */ 
