@@ -124,17 +124,18 @@ body{
 .hero3_contents{
     display:flex;
     flex-direction:column;
-    margin:0px 250px;
 }
 .hero3_contents_quotetext{
     color:white;
-    font-size:40px;
+    font-size:35px;
     font-style:italic;
+    max-width:800px;
 }
 .hero3{
     height:500px;
     display:flex;
     align-items:center;
+    justify-content:space-around;
 }
 .hero3_contents_quoteauthor{
     color:white;
@@ -143,7 +144,49 @@ body{
     font-style:italic;
     margin:0px;
 }
+/*end of hero3*/
+/*start of hero4*/
+.hero4{
+    height:350px;
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.hero4_cta_container{
+    background:#e8e8e8;
+    padding:30px;
+      border-radius: 30px;
+        transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
 
+
+
+.hero4_cta{
+    display:flex;
+    flex-direction:row;
+    margin:0px 80px;
+    justify-content:space-between;
+    align-items:center;
+    min-width:800px;
+    min-height:100px;
+}
+.hero4_cta_text1{
+    font-size:28px;
+    font-weight:500;
+    margin:0px;
+    margin-bottom:10px;
+    font-family:Roboto;
+    color:#1f2021;
+}
+.hero4_cta_text2{
+    font-size:12px;
+    margin:0px;
+    font-family:Roboto;
+    color:#1f2021;
+}
+    
 /* button */ 
 .button {
   padding: 15px 20px;
@@ -157,29 +200,26 @@ body{
   transition: all 0.25s ease-out;
 }
 
-.button:hover {
-  transform: translateY(-3px);
-}
+
 
 .button-span {
   color: #aaa;
 }
-.button {
-  padding: 15px 20px;
-  border: none;
-  outline: none;
-  background-color: #151515;
-  color: #eee;
-  border-radius: 7px;
-  font-weight: 600;
+
+/* From Uiverse.io by ke1221 */ 
+#signup {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
   cursor: pointer;
-  transition: all 0.25s ease-out;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 }
 
-.button:hover {
-  transform: translateY(-3px);
-}
-
-.button-span {
-  color: #aaa;
+#signup:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
 }
